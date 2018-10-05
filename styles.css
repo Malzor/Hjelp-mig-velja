@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 150px;
-  background-color: darkblue;
+  background-color: #67BCC4;
 }
 h1 {
   font-weight: lighter;
@@ -17,7 +17,7 @@ h4 {
   font-style: normal;
   font-family: sans-serif;
   font-weight: lighter;
-  color: turquoise;
+  color: #F7BCBB;
 }
 .inputSection {
   margin: 50px 0px 80px 0px;
@@ -31,10 +31,16 @@ h4 {
 input {
   margin-top: 10px;
 }
+
 .addOption {
   margin-top: 10px;
 }
-
+.changeColor {
+  background-color: F7BCBB;
+}
+.changeColor {
+  background-color: #F7BCBB;
+}
 .container {
   display: flex;
   flex-direction: row;
@@ -44,5 +50,13 @@ input {
 
 }
 .bild {
-  margin: 20px
+  margin: 10px
+}
+.resultSection {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 65px;
+  color: white
 }
